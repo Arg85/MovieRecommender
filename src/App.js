@@ -1,6 +1,6 @@
 import './App.css';
 import {useState,useEffect} from 'react'
-import MovieList from './Components/MovieList';
+import Header from './Components/Header/Header';
 function App() {
     const [movies, setMovie] = useState([
         {
@@ -84,10 +84,11 @@ return val
 })
   },[])
   return (
+    <>
+   <Header/>
     <div className="App">
-    <h1>Movies</h1>
-    <MovieList movies={movies}/>
     </div>
+    </>
   );
 }
 
