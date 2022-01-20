@@ -1,6 +1,10 @@
 import './App.css';
 import {useState,useEffect} from 'react'
 import Header from './Components/Header/Header';
+import MainNav from './Components/MainNav';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Container } from '@mui/material';
+
 function App() {
     const [movies, setMovie] = useState([
         {
@@ -84,11 +88,13 @@ return val
 })
   },[])
   return (
-    <>
+    <BrowserRouter>
    <Header/>
     <div className="App">
+    <Container><h1>asdasdasdasdasd</h1></Container>
     </div>
-    </>
+    <MainNav/>
+    </BrowserRouter>
   );
 }
 
