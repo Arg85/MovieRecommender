@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
    <Header/>
     <div className="App">
-    <Container>
+    <Container sx={{maxWidth:"1300px",marginBottom:"105px"}}>
       <Routes>
         <Route exact path="/" element={<Trending/>}></Route>
         <Route   path="/Movies" element={<Movies/>}></Route>

@@ -18,3 +18,8 @@ font-size: clamp(10px,1vw,20vw);
 font-family: 'Source Sans Pro', sans-serif;
 background-color: #020202;
 }
+@media(max-width:1000px){
+  .App{
+    padding-top: 70px;
+  }
+}

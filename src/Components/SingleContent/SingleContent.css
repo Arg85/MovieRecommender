@@ -1,31 +1,34 @@
 .media{
     display: flex;
     flex-direction: column;
-    width: 200px;
-    padding:5px;
+    width: 240px;
+    box-shadow: 5px 5px 20px 0px black;
+
     margin:5px 0;
-    background-color: rgb(9, 9, 9);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     position: relative;
-    color: #ffffff;
+    color: #000000;
     font-family: 'Source Sans Pro', sans-serif;
     transition: all 0.5s ease-in-out;
 }
 .media:hover{
     cursor: pointer;
-    background-color: #e6e6e6;
-    color: #000000;
+    color: #ffffff;
+    background-color: #000000;
+ 
 }
 .subTitle{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 0 2px;
-    padding-bottom: 3px;
+    padding: 10px 10px;
 }
 .title{
     width: 100%;
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
     padding:8px 0;
 }
+.image{    border-radius: 6px;}

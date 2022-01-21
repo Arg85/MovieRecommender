@@ -1,5 +1,29 @@
+* {
+  scroll-behavior: smooth;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+}
 .App {
- background-color: #525151;
+ background-color: #ffffff;
  min-height: 100vh;
 }
 
+.pageTitle{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  font-size: 2vw;
+  padding:4px;;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media(max-width :1000px){
+  .pageTitle{
+    font-size: 6.4vw;
+  }
+}
