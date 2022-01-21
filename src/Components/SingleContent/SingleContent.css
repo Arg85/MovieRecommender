@@ -1,0 +1,31 @@
+.media{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding:5px;
+    margin:5px 0;
+    background-color: rgb(9, 9, 9);
+    border-radius: 10px;
+    position: relative;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+.media:hover{
+    cursor: pointer;
+    background-color: #e6e6e6;
+    color: #000000;
+}
+.subTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0 2px;
+    padding-bottom: 3px;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding:8px 0;
+}
