@@ -13,7 +13,10 @@ function Trending() {
             setTrendingList(data)
         }
         fetchTrending()
-        return () => ac.abort();
+        return () => {
+            ac.abort()
+          
+        }
     },[page])
     return (
         <div>

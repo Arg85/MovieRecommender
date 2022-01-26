@@ -19,11 +19,13 @@ html {
   color: rgb(0, 0, 0);
   border-radius: 50px;
   font-size: 2vw;
-  padding:4px;;
+  padding:50px;
+  padding-top: 0px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 @media(max-width :1000px){
   .pageTitle{
     font-size: 6.4vw;
+    padding-bottom: 20px;
   }
 }
