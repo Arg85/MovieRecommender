@@ -24,14 +24,14 @@ function Genres({
     const { data } = await axios.get(
       `https://api.themoviedb.org/3/genre/${type}/list?api_key=${process.env.REACT_APP_API_KEY}&language=en-US`
     )
-    console.log("runny fetchyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy")
     setGenres(data.genres)
 }
 useEffect(()=>{
-console.log("runny inside")
-fetchGenres()
-return ()=>{
-    setGenres([])
+    fetchGenres()
+    //eslint-disable-next-line
+    return ()=>{
+        setGenres([])
+        //eslint-disable-next-line
 }
 },[])
   return (

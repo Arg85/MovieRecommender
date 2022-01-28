@@ -17,9 +17,8 @@ function Movies() {
         setNumOfPages(data.total_pages)
     }
     useEffect(()=>{
-        
         fetchMovies()
-
+        //eslint-disable-next-line
     },[page,urlGenre])
     return (
         <div>
